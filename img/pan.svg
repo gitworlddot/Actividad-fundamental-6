@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Cuernito recién horneado">
+<rect width="600" height="400" fill="#d9e6df"/>
+<path d="M110 260c10-90 80-140 190-140s180 50 190 140c-40-20-60-10-90 10-30-30-70-30-100-30s-70 0-100 30c-30-20-50-30-90-10z" fill="#a8641f"/>
+<path d="M240 135l-25 110M300 125v110M360 135l25 110" stroke="#ffffff" stroke-width="8" opacity=".45" stroke-linecap="round"/>
+</svg>

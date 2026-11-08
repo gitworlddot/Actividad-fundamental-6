@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Fachada del local">
+<rect width="600" height="400" fill="#e7efe9"/>
+<rect x="120" y="150" width="360" height="180" fill="#1f3d36"/>
+<path d="M100 150l30-70h340l30 70z" fill="#1f3d36" opacity=".75"/>
+<path d="M130 150v28a30 30 0 0 0 60 0v-28M190 150v28a30 30 0 0 0 60 0v-28M250 150v28a30 30 0 0 0 60 0v-28M310 150v28a30 30 0 0 0 60 0v-28M370 150v28a30 30 0 0 0 60 0v-28M430 150v28a30 30 0 0 0 40 0v-28" fill="#ffffff" opacity=".35"/>
+<rect x="170" y="215" width="110" height="80" fill="#ffffff" opacity=".4"/>
+<rect x="330" y="215" width="70" height="115" fill="#ffffff" opacity=".55"/>
+</svg>

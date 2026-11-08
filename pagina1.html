@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú | Café Central</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-cc sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Café Central</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina1.html">pagina 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="pagina2.html">pagina 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="pagina3.html">pagina 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-5">
+<h1 class="mb-3">Menú</h1>
+<p class="texto-ancho">Todo lo que ves aquí se prepara en el momento. Trabajamos con café tostado en la región y pan que llega fresco cada mañana, para que lo que pides sepa igual de bien a cualquier hora.</p>
+<p class="texto-ancho">Los productos se dividen en tres categorías: bebidas calientes, bebidas frías y panadería. Cada una tiene su propio precio y su disponibilidad se actualiza en el inventario del local.</p>
+<p class="texto-ancho mb-5">Si tienes alguna duda sobre ingredientes o alergias, revisa las preguntas frecuentes al final de la página o pregunta directamente en mostrador.</p>
+
+<div class="row g-4 mb-5">
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="img/cafe.svg" class="card-img-top" alt="Taza de café de la casa">
+      <div class="card-body">
+        <h2 class="h5 card-title">Café de la casa <span class="badge text-bg-warning">Nuevo</span></h2>
+        <p class="card-text">Tostado medio, notas a chocolate. Se sirve caliente, en taza de 240 ml.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="img/frio.svg" class="card-img-top" alt="Vaso de bebida fría con hielo">
+      <div class="card-body">
+        <h2 class="h5 card-title">Café frío</h2>
+        <p class="card-text">Extracción lenta en frío durante 12 horas, con hielo y a tu gusto de azúcar.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="img/pan.svg" class="card-img-top" alt="Cuernito recién horneado">
+      <div class="card-body">
+        <h2 class="h5 card-title">Cuernito de mantequilla</h2>
+        <p class="card-text">Horneado cada mañana. Combina bien con cualquiera de las bebidas calientes.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="h4 mb-3">Preguntas frecuentes</h2>
+<div class="accordion" id="faq">
+  <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1" aria-expanded="true" aria-controls="f1">¿Puedo pedir sin azúcar?</button></h3>
+    <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq"><div class="accordion-body">Sí. Todas las bebidas se preparan sin azúcar por defecto y tú decides cuánto agregar.</div></div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2" aria-expanded="false" aria-controls="f2">¿Qué pasa si se agota un producto?</button></h3>
+    <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">El inventario lo marca como agotado y deja de aparecer en el menú hasta que se reponga.</div></div>
+  </div>
+</div>
+</main>
+
+<footer class="bg-cc text-light py-4">
+  <div class="container small">Café Central · Actividad Fundamental 6 · Programación Web, FIME UANL</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

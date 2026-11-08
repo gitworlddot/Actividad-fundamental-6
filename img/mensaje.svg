@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Sobre de correo para mandar un mensaje">
+<rect width="600" height="400" fill="#f3e2b8"/>
+<rect x="110" y="110" width="380" height="240" rx="18" fill="#1f3d36"/>
+<path d="M120 125l180 130 180-130" fill="none" stroke="#ffffff" stroke-width="14" opacity=".8" stroke-linejoin="round"/>
+</svg>

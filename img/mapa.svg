@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Mapa con la ubicación del local">
+<rect width="600" height="400" fill="#d9e6df"/>
+<path d="M60 300l120-40 120 40 120-40 120 40V120l-120-40-120 40-120-40-120 40z" fill="#c0392b" opacity=".35"/>
+<path d="M300 330c-60-80-90-120-90-165a90 90 0 0 1 180 0c0 45-30 85-90 165z" fill="#c0392b"/>
+<circle cx="300" cy="165" r="34" fill="#ffffff" opacity=".85"/>
+</svg>

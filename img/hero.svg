@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Taza de café humeante">
+<rect width="600" height="400" fill="#1f3d36"/>
+<ellipse cx="300" cy="320" rx="150" ry="22" fill="#e9b44c" opacity=".25"/>
+<path d="M200 170h200v70a100 100 0 0 1-200 0z" fill="#e9b44c"/>
+<path d="M400 190h28a38 38 0 0 1 0 76h-38" fill="none" stroke="#e9b44c" stroke-width="16"/>
+<path d="M255 135c-16-22 16-34 0-58M300 135c-16-22 16-34 0-58M345 135c-16-22 16-34 0-58" fill="none" stroke="#e9b44c" stroke-width="9" stroke-linecap="round" opacity=".7"/>
+</svg>

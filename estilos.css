@@ -1,0 +1,15 @@
+/* Paleta: verde café, mostaza y fondo salvia claro */
+:root { --verde:#1f3d36; --mostaza:#e9b44c; --fondo:#f5f7f4; --tinta:#1d1b19; }
+body { background:var(--fondo); color:var(--tinta); font-family: Georgia, "Times New Roman", serif; line-height:1.65; }
+h1,h2,h3,.navbar-brand,.nav-link { font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif; }
+.bg-cc { background:var(--verde); }
+.navbar-brand { font-weight:700; color:var(--mostaza)!important; letter-spacing:.02em; }
+.nav-link.active { color:var(--verde)!important; background:var(--mostaza); border-radius:.4rem; font-weight:700; }
+.titulo-grande { font-size:clamp(2.6rem, 8vw, 5.5rem); font-weight:800; line-height:1.05; color:var(--verde); }
+.texto-ancho { max-width:62ch; }
+.hero-img { border-radius:1rem; width:100%; height:auto; }
+.card, .accordion-item { border-color:#cfd9d3; }
+.btn-cc { background:var(--verde); color:#fff; border:0; }
+.btn-cc:hover { background:#2b574d; color:#fff; }
+.btn-cc:focus-visible, .nav-link:focus-visible { outline:3px solid var(--mostaza); outline-offset:2px; }
+.carousel img { height:320px; object-fit:cover; }

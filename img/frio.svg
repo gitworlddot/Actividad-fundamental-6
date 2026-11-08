@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Vaso de bebida fría con hielo">
+<rect width="600" height="400" fill="#f3e2b8"/>
+<path d="M225 120h150l-18 190a24 24 0 0 1-24 22h-66a24 24 0 0 1-24-22z" fill="#1f3d36" opacity=".9"/>
+<rect x="235" y="100" width="130" height="22" rx="8" fill="#1f3d36"/>
+<path d="M330 100l38-70" stroke="#1f3d36" stroke-width="12" stroke-linecap="round"/>
+<rect x="258" y="170" width="46" height="46" rx="8" fill="#ffffff" opacity=".55" transform="rotate(12 281 193)"/>
+<rect x="312" y="215" width="40" height="40" rx="8" fill="#ffffff" opacity=".55" transform="rotate(-10 332 235)"/>
+</svg>
